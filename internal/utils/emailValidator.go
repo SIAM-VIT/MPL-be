@@ -24,3 +24,4 @@ func ValidateEmail(email string) error {
 	fmt.Println("email validation result", ret)
 	return nil
 }
+

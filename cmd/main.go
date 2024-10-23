@@ -5,12 +5,15 @@ import (
 
 	"github.com/oik17/mpl-be/internal/database"
 	"github.com/oik17/mpl-be/internal/routes"
+	"github.com/oik17/mpl-be/internal/utils"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )
 
 func main() {
+
+	utils.PrintSiamBanner()
 	database.Connect()
 	database.RedisConnect()
 
@@ -31,6 +34,6 @@ func main() {
 
 	routes.TeamRoutes(e)
 	routes.UserRoutes(e)
-
 	e.Start(":8080")
+
 }
