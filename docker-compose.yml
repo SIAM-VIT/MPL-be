@@ -14,3 +14,5 @@ services:
       - /c/Users/Akshat/Desktop/Tests/MPL-be/nginx/nginx.conf:/etc/nginx/nginx.conf
     depends_on:
       - app
+
+
