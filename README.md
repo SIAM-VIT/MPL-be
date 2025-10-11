@@ -1,7 +1,7 @@
 <p align="center"><img src="https://imgur.com/Vp4LWt0.png" width=160 title="SIAM-VIT" alt="SIAM-VIT"></a>
 </p>
 <div align="center">
-  <h3 align="center">MPL Backend</h3>
+  <h3 align="center">MPL Backend Application</h3>
 
   <p align="center">
     <a href="https://github.com/orgs/SIAM-VIT/repositories?q=mpl"><strong>Explore other MPL repositories</strong></a>
